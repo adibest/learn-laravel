@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout.index');
 });
 
 Route::get('/home', function () {
@@ -20,3 +20,11 @@ Route::get('/home', function () {
 });
 
 Route::get('/salam', 'BlogController@ucapan');
+
+Route::get('/universitas', function () {
+	return view('universitas.index');
+});
+
+Route::get('/mahasantri', function () {
+	return view('mahasantri.index');
+});
