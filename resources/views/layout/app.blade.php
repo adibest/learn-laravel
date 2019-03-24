@@ -34,6 +34,18 @@
 		<!-- Head Libs -->
 		<script src="/octopus/octopus/assets/vendor/modernizr/modernizr.js"></script>
 
+		<!-- Custom by me -->
+		<style>
+			#kmr {
+				border: 2px solid #000;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.khusus {
+				transform: translateY(300%);
+			}
+		</style>
+
 	</head>
 	<body>
 		<section class="body">

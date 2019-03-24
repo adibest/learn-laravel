@@ -14,9 +14,9 @@
 							<nav id="menu" class="nav-main" role="navigation">
 								<ul class="nav nav-main">
 									<li>
-										<a href="{{ url('/universitas') }}">
+										<a href="{{ url('/kamar/fulan') }}">
 											<i class="fa fa-university" aria-hidden="true"></i>
-											<span>Universitas</span>
+											<span>Kamar</span>
 										</a>
 									</li>
 									<li>

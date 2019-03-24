@@ -28,3 +28,6 @@ Route::get('/universitas', function () {
 Route::get('/mahasantri', function () {
 	return view('mahasantri.index');
 });
+
+Route::get('/kamar/{fulan}', 'LuasKamarController@LuasKamar');
+Route::post('/hasil', 'LuasKamarController@hasil');
