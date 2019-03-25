@@ -1,5 +1,7 @@
 @extends('layout.app')
 
+@section('title', 'Kamar')
+
 @section('content')
 
 <header class="page-header">

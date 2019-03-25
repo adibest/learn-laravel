@@ -1,5 +1,7 @@
 @extends('layout.app')
 
+@section('title', 'Blank Page')
+
 @section('content')
 
 <header class="page-header">
