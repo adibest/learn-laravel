@@ -31,3 +31,16 @@ Route::get('/mahasantri', function () {
 
 Route::get('/kamar/{fulan}', 'LuasKamarController@LuasKamar');
 Route::post('/hasil', 'LuasKamarController@hasil');
+
+Route::get('/layout', function () {
+    return view('layouts.app');
+});
+
+Route::get('/umur', [
+	'middleware' => 'Umur:12',
+	'uses' => 'FormController@cek',
+]);
+
+Route::get('/age', function () {
+
+})->middleware('AgeMiddleware');

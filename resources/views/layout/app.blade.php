@@ -42,7 +42,8 @@
 				margin-right: auto;
 			}
 			.khusus {
-				transform: translateY(300%);
+				margin-top: auto;
+				margin-bottom: auto;
 			}
 		</style>
 
